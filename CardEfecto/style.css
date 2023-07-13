@@ -2,11 +2,11 @@ article{
     position: relative;
     width: 450px;
     transition: all .3s ease;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 article img:first-child{
-    box-shadow: 0 60px 60px -60 rgba(0, 30, 255, 0.5);
+    box-shadow: 0 60px -60 rgba(0, 30, 255, 0.5);
     border-radius: 4px;
     object-fit: cover;
     width: 100%;
@@ -16,8 +16,8 @@ article img:last-child{
     position: absolute;
     width: 400px;
     bottom: 0;
-    left: 0;
     right: 0;
+    left: 0;
     margin: auto;
     transform: translateY(25%);
     transition: .3s ease;
@@ -44,6 +44,6 @@ article:hover::before{
 }
 
 article:hover img:last-child{
-opacity: 1;
-transform: translateY(-185%);
-} 
+    opacity: 1;
+    transform: translateY(-185%);
+}
