@@ -7,7 +7,6 @@ article {
   }
   
   article img{
-    box-shadow: 0 60px 60px -60 rgba(0, 30, 255, 0.5);
     border-radius: 4px;
     object-fit: cover;
     width: 100%;
